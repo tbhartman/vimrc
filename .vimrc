@@ -86,3 +86,13 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+set scrolloff=5
+imap <S-Tab> <Esc><<i " shift-tab for insert mode
+set foldminlines=1
+let g:LargeFile=25
+
+set backup "keep a backup file
+set backupdir=d:\users\rq3\vimfiles\backup
+set dir=d:\users\rq3\vimfiles\swap
+set number
+set guifont=Inconsolata:h12:cANSI
