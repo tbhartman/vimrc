@@ -42,6 +42,9 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+" set vertical diffs
+set diffopt=filler,context:4,vertical
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
   " Enable file type detection.
