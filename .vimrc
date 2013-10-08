@@ -96,3 +96,10 @@ set backupdir=d:\users\rq3\vimfiles\backup
 set dir=d:\users\rq3\vimfiles\swap
 set number
 set guifont=Inconsolata:h12:cANSI
+set expandtab
+set tabstop=4
+set shiftwidth=4
+
+set wildmenu
+set wildmode=longest,list
+"set wildmode=longest,full
