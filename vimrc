@@ -9,7 +9,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-filetype on
+filetype plugin on
 
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
