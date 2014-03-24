@@ -91,9 +91,11 @@ imap <S-Tab> <Esc><<i " shift-tab for insert mode
 set foldminlines=1
 let g:LargeFile=25
 
-set backup "keep a backup file
-set backupdir=d:\users\rq3\vimfiles\backup
-set dir=d:\users\rq3\vimfiles\swap
+"backup and swap settings
+set backup
+let g:VimHome=split(&rtp,',')[0]
+let &backupdir=g:VimHome . '/.backup//,.'
+let &directory=g:VimHome . '/swap//,.'
 set number
 set guifont=Inconsolata:h12:cANSI
 set expandtab
