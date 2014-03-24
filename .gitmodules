@@ -1,15 +1,9 @@
-[submodule "bundle/zoom"]
-	path = bundle/zoom
-	url = https://github.com/tbhartman/zoom.vim.git
-[submodule "bundle/reload"]
-	path = bundle/reload
-	url = https://github.com/vim-scripts/reload.vim.git
-[submodule "bundle/vim-misc"]
-	path = bundle/vim-misc
-	url = https://github.com/vim-scripts/vim-misc.git
-[submodule "bundle\\vim-pathogen"]
-	path = bundle\\vim-pathogen
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
-[submodule "bundle\\fortran_line_length"]
-	path = bundle\\fortran_line_length
+[submodule "bundle/fortran_line_length"]
+	path = bundle/fortran_line_length
 	url = https://github.com/caglartoklu/fortran_line_length.vim
+[submodule "bundle/vim-zoom"]
+	path = bundle/vim-zoom
+	url = https://github.com/tbhartman/zoom.vim.git
