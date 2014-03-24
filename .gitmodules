@@ -7,3 +7,6 @@
 [submodule "bundle/vim-zoom"]
 	path = bundle/vim-zoom
 	url = https://github.com/tbhartman/zoom.vim.git
+[submodule "bundle/reload"]
+	path = bundle/reload
+	url = https://github.com/vim-scripts/reload.vim.git
