@@ -109,8 +109,8 @@ let g:LargeFile=25
 "backup and swap settings
 set backup
 let g:VimHome=split(&rtp,',')[0]
-let &backupdir=g:VimHome . '/.backup//,.'
-let &directory=g:VimHome . '/swap//,.'
+let &backupdir=g:VimHome . '/.backup//'
+let &directory=g:VimHome . '/.swap//'
 
 set number
 set guifont=Inconsolata:h12:cANSI
