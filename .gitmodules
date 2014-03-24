@@ -10,3 +10,6 @@
 [submodule "bundle\\vim-pathogen"]
 	path = bundle\\vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "bundle\\fortran_line_length"]
+	path = bundle\\fortran_line_length
+	url = https://github.com/caglartoklu/fortran_line_length.vim
