@@ -143,3 +143,4 @@ set lines=50 columns=110
 set fileformat=unix
 set nowrapscan
 
+let g:pydoc_cmd = 'python -m pydoc'
