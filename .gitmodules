@@ -10,3 +10,6 @@
 [submodule "bundle/reload"]
 	path = bundle/reload
 	url = https://github.com/vim-scripts/reload.vim.git
+[submodule "bundle/vim-misc"]
+	path = bundle/vim-misc
+	url = https://github.com/vim-scripts/vim-misc.git
