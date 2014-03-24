@@ -1,3 +1,11 @@
+" vimrc
+" (c) 2013 T.B. Hartman
+"
+" This vimrc file resides in the user vim directory (.vim, vimfiles, etc.).
+" To get started, symlink to this file in the appropriate location:
+"   ln -s ~/.vim/vimrc ~/.vimrc
+"   mklink /h ~\_vimrc ~\vimfiles\vimrc
+
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -96,6 +104,7 @@ set backup
 let g:VimHome=split(&rtp,',')[0]
 let &backupdir=g:VimHome . '/.backup//,.'
 let &directory=g:VimHome . '/swap//,.'
+
 set number
 set guifont=Inconsolata:h12:cANSI
 set expandtab
@@ -104,4 +113,26 @@ set shiftwidth=4
 
 set wildmenu
 set wildmode=longest,list
-"set wildmode=longest,full
+
+
+"cd to current file directory
+com! CD lcd %:p:h
+
+"yank buffer to clipboard
+map <leader>y :%y+<cr>
+
+" Shortcut to rapidly toggle whitespace
+nmap <leader>l :set list!<CR>
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:>-,eol:¬
+
+" hide menu and toolbar in gui
+set guioptions-=m
+set guioptions-=T
+
+set laststatus=2
+set lines=50 columns=110
+set fileformat=unix
+set nowrapscan
+
